@@ -7,14 +7,14 @@ import "assets/styles/tailwind.css";
 
 // layouts
 
-import Admin from "layouts/Admin.js";
-import Auth from "layouts/Auth.js";
+import Admin from "src/layouts/Admin.js";
+import Auth from "src/layouts/Auth.js";
 
 // views without layouts
 
-import Landing from "views/Landing.js";
-import Profile from "views/Profile.js";
-import Index from "views/Index.js";
+import Landing from "src/views/Landing.js";
+import Profile from "src/views/Profile.js";
+import Index from "src/views/Index.js";
 
 ReactDOM.render(
   <BrowserRouter>
