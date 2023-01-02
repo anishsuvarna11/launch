@@ -37,29 +37,8 @@ const Profile = () => {
     <>
     <IndexNavbar fixed />
     <div className = "bg-black h-fit items-center pl-12 pb-32">
-<div className="flex bg-slate-100 p-8 justify-center">
-  <div className='pt-24 text-white text-3xl'>1. Make a copy of the PDF file below and fill in all of the information.</div>
-</div>
-<div className="flex bg-slate-100 p-8 justify-center">
-  <div className='pt-4 text-white text-3xl'>    2. Download your completed file and send it to ___ as an attachment.</div>
-</div>
-<div className="flex bg-slate-100 p-8 justify-center">
-  <div className='pt-4 text-white text-3xl'>    3. Sit tight as the opportunities start to roll by.</div>
-</div>
-<div className="pt-16 research-pdf flex justify-center">
-                        <h1 className="flex items-center uppercase tracking-wide text-center text-xl mb-5 text-indigo-500 font-extralight semibold">
-                            <span className=" inline text-lg leading-tight font-extralight semibold text-red-400">
-                                {" "}
-                            </span>
-                        </h1>
-                        <iframe
-                            frameBorder="0"
-                            scrolling="no"
-                            width="600"
-                            height="650"
-                            src="https://drive.google.com/file/d/1ccXb22ZmYMy6kTJxPdasaUCQXSfMxM7t/preview"
-                        />
-                    </div>
+<iframe src="https://form.jotform.com/230008669307152" className="border-none w-full h-full" style={{height: '100vh'}} />
+
 </div>
 <div className = "bg-black"></div>
     </>
